@@ -1,0 +1,135 @@
+body{
+background-color: #25273e;
+font-family: "Inter", sans-serif;
+}
+nav{
+    background-color: rgb(233, 236, 255);
+}
+.vector{
+ display:flex;
+ font-weight: bolder;   
+}
+ul{
+    display:flex;
+    list-style: none;
+    gap:30px;
+}
+.box{
+    border:3px solid rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.box button{
+    background-color: rgb(128, 140, 253);
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    border:1px solid rgb(128, 140, 253);
+}
+
+.img{
+    margin: 10px;
+}
+.train{
+    background-color:rgb(233, 236, 255) ;
+    display:flex;
+    padding:3px;
+    border:1px solid;
+    justify-content: center;
+    font-weight: bolder;
+}
+.first{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-template-areas: "meghan committed";
+    
+}
+.meghan{
+    display:grid;
+    grid-template-areas:2fr ;
+    grid-area:meghan;
+}
+.meghan img{
+    width: 100%;
+}
+.committed{
+    display:grid;
+    grid-template-areas:1fr ;
+    grid-area:committed;
+    background-color: rgb(233, 236, 255);
+}
+
+.father{
+background-color:rgb(233, 236, 255);
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas:"guided dynamic second";
+font-size: smaller;   
+}
+.guided{
+    background-color:rgb(233, 236, 255);
+    grid-area: guided;
+}
+
+.dynamic{
+background-color:rgb(233, 236, 255);
+grid-area: dynamic;
+}
+
+.second{
+grid-area: second;
+}
+.second img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.discover{
+background-color:rgb(233, 236, 255);
+display:flex;
+align-items: flex-start;
+}
+.potential{
+    width:50%;
+    padding: 10px;
+}
+.third{
+width: 50%;
+}
+.third img{
+    width:100%;
+    object-fit: cover;;
+}
+
+.join{
+    background-color:rgb(128, 140, 253);
+    text-align: center;
+    padding:35px;
+}
+.join button{
+    border-radius:6px;
+    border:1px solid rgb(128, 140, 253);
+    padding:10px;
+}
+
+/* footer session */
+footer{
+background-color:rgb(233, 236, 255);
+}
+.bottom{
+font-weight: bold;
+display:flex;
+justify-content:space-between;
+}
+
+.contact,.social{
+    padding:10px;
+}
+.opening{
+    justify-content: space-around;
+    padding:10px;
+}
+#mon,#sat,#sun,#hols{
+    display:flex;
+    gap:20px;
+}

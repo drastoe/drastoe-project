@@ -1,0 +1,65 @@
+
+   body{
+  background-color:hsla(210, 20%, 98%);
+}
+  .container{
+      margin:20px;
+     background-color: hsl(0, 0%, 100%);
+     display:grid;
+     grid-template-columns: repeat(3 1fr);
+ }
+ 
+ .item1{
+background-color: hsl(218, 22% 67%);
+display:grid;
+grid-row:1/2;
+padding:10px;
+font-size: 16px;
+border-radius: 4px;
+font-family: karla;
+ }
+ 
+ .item2{
+ color: hsl(0, 0%, 100%);
+background-color: hsl(179, 62%, 43%);
+display:grid; 
+padding:10px;
+font-size: 16px; 
+font-family: karla;
+border-radius: 4px;
+grid-column:1/2;
+
+ }
+ 
+ .item3{
+ color: hsl(0, 0%, 100%);
+ background-color: hsl(179, 50%, 48%);
+ font-size:16px; font-family: karla;
+ border-radius:4px;
+ display:grid;
+ padding:10px;
+ grid-column:1/2;
+ }
+
+
+button{
+    height:35px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid hsl(71, 73%, 54%); 
+    background-color:hsl(71, 73%, 54%);
+    color:hsl(204, 43%, 93%);
+    border-radius: 4px;
+    justify-content: center;
+}
+@media screen and (min-width:1024px){
+    .container{
+    flex-direction: row;
+justify-content: space-around; 
+ }
+ .item3{
+    width:30%;
+ }
+}

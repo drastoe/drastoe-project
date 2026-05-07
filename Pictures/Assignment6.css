@@ -1,0 +1,110 @@
+body{
+background-color: rgb(37, 39, 62);
+font-family: "Inter", sans-serif;
+}
+nav{
+    background-color: rgb(233, 236, 255);
+}
+.vector{
+ display:flex;
+ font-weight: bolder;   
+}
+ul{
+    display:flex;
+    list-style: none;
+    justify-content:space-between;
+}
+.box{
+    border:3px solid rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.box button{
+    background-color: rgb(128, 140, 253);
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    border:1px solid rgb(128, 140, 253);
+
+}
+
+.img{
+    margin: 10px;
+}
+.train{
+    background-color:rgb(233, 236, 255) 91% 0%) ;
+    display:flex;
+    padding:3px;
+    border:1px solid;
+    justify-content: center;
+    font-weight: bolder;
+}
+.div{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas: "image image committed";
+}
+.image{
+    display:grid;
+    grid-template-areas:2fr ;
+    grid-area:image;
+}
+.div2{
+background-color: rgb(233, 236, 255);
+padding:5px;
+font-size: smaller;
+}
+
+.div3{
+display:flex;
+background-color:rgb(233, 236, 255);
+font-size: smaller;   
+padding:10px;
+}
+.div4{
+background-color:rgb(233, 236, 255);
+display:flex;
+align-items: flex-start;
+}
+.potential{
+    width:50%;
+    padding: 10px;
+}
+.photo{
+width: 50%;
+}
+.photo img{
+    width:100%;
+    object-fit: cover;;
+}
+.Primal{
+    background-color:#808cfd;
+    text-align: center;
+    padding:35px;
+}
+.Primal button{
+    border-radius:6px;
+    border:1px solid rgb(128, 140, 253);
+    padding:10px;
+}
+footer{
+background-color:rgb(233, 236, 255);
+}
+.bottom{
+font-weight: bold;
+display:flex;
+justify-content:space-between;
+}
+
+.contact,.social{
+    padding:10px;
+}
+.opening{
+    justify-content: space-around;
+    padding:10px;
+}
+#mon,#sat,#sun,#hols{
+    display:flex;
+    gap:20px;
+}

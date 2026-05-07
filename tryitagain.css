@@ -1,0 +1,98 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: hsl(0, 0%, 100%);
+    display:grid;
+    grid-template-columns:300px 1fr 1fr 1fr 1fr ;
+    margin:5px;
+    padding:15px;
+    border-radius: 4px;
+    border:1px solid hsl(120, 100%, 25%);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-areas: "Wifi Wifi Tithe Groceries" "Transport Subscription Subscription Groceries";
+    gap:15px;
+    margin:20px;
+}
+
+.card{
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(120, 100%, 25%);
+    opacity:0.8;
+    padding:15px;
+    border-radius:5px;
+}
+.Wifi{
+    background-color:hsl(263, 55%, 52%);
+    color:hsl(260, 100%, 95%);
+    grid-area: Wifi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    padding:15px;
+    display:grid;
+    justify-content:center;
+    border-radius: 35px;
+}
+
+.Tithe{
+    background-color:hsl(217, 19%, 35%);
+    color:hsl(0, 0%, 81%);
+    grid-area: Tithe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    padding:15px;
+        border-radius: 35px;
+    display:grid;
+    justify-content:center;
+}
+.Groceries{
+  background-color:hsl(0, 0%, 100%);
+    color:hsl(224, 10%, 45%);
+    grid-area: Groceries;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    padding:15px;
+     border-radius: 35px;
+    display:grid;
+    justify-content:center;
+    align-items: center;
+}
+.Transport{
+      background-color:hsl(214, 17%, 92%);
+    color:hsl(224, 10%, 45%);
+    grid-area: Transport;
+    padding:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+        border-radius: 35px;
+    display:grid;
+    justify-content:center;
+}
+.Subscription{
+    background-color:hsl(219, 29%, 14%);
+    color:hsl(0, 0%, 81%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    grid-area: Subscription;
+    padding:15px;
+        border-radius: 35px;
+    display:grid;
+    justify-content:center;
+}
+@media(max-width:768px){
+    .container{
+        grid-template-columns:1fr;
+        grid-template-areas: 
+        "Wifi" 
+        "Tithe"
+        "Groceries"
+        "Transport"
+        "Subscription";
+    }
+}

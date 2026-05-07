@@ -1,0 +1,198 @@
+.class{
+    display:flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+
+
+}
+.bell{
+    background-color:#47e288;
+    color: #ffffff;
+    display:flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    justify-content: space-evenly;
+    border-radius:10px;
+    padding: 5px;
+    margin-bottom:20px;
+}
+
+
+.wifi{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+display: grid;
+grid-area: wifi;
+justify-content: center;
+gap:10px;
+margin-bottom:10px;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wifi:hover{
+background-color: aquamarine;
+}
+
+.groceries{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+display: grid;
+grid-area: groceries;
+justify-content: center;
+gap:10px;
+margin-bottom:10px;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.food{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+display: grid;
+grid-area: food;
+justify-content: center;
+gap:10px;
+margin-bottom:10px;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.sub{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+display: grid;
+grid-area: sub;
+justify-content: center;
+gap:10px;
+margin-bottom:10px;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.savings{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+display: grid;
+grid-area: savings;
+justify-content: center;
+gap:10px;
+margin-bottom:10px;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.investment{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+display: grid;
+grid-area: investment;
+justify-content: center;
+gap:10px;
+margin-bottom:10px;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.transportation{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+display: grid;
+grid-area: transportation;
+justify-content: center;
+gap:10px;
+margin-bottom:10px;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tithe{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+display: grid;
+grid-area: tithe;
+justify-content: center;
+gap:10px;
+margin-bottom:10px;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.more{
+background-color:#ffffff;
+color:#1A6B3C;
+display:flex;
+justify-content: center;
+gap:15px;
+}
+
+.tax{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+flex:1;
+display: grid;
+grid-area: tax;
+justify-content: center;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lawma{
+background-color:#ffffff;
+color:#1A6B3C;
+padding:20px;
+flex:1;
+display:grid;
+grid-area: lawma;
+justify-content: center;
+border-radius: 10px;
+border: 1px solid #1A6B3C;
+font-size:medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer{
+    color: #ffffff;
+    background-color:#1A6B3C;
+    border-radius: 10px;
+    padding:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+

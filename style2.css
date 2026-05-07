@@ -1,0 +1,15 @@
+.mother{
+    border:2px solid green;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    height: 150px;
+    width: 200px;
+}
+
+.daughter{
+box-sizing: border-box;
+border:1px solid red;
+    color:blue;
+    height:45px;
+    width: 45px; 
+}

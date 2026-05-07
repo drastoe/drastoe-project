@@ -1,0 +1,196 @@
+body{
+    font-size: 18px;
+    font-family: 'Bai Jamjuree';
+}
+
+.header{
+    background-image: url('backgroundheaderdesktop.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: top center;
+    padding: 80px 20px;
+    text-align: center;
+} 
+.history{
+    color: hsl(210, 10%, 33%);
+}
+.b1{
+    padding:10px;
+    border-radius:15px;
+    background-color:hsl(171, 53%, 53%) ;
+    color: hsl(180, 100%, 100%);
+    border:1px;
+}
+.b2{
+    padding:10px;
+    border-radius:15px;
+    font-weight: 400;
+    background-color:hsl(232, 99%, 68%);
+    color: hsl(180, 100%, 100%);
+    border: 1px;
+}
+.desktop-row{
+    display:flex;
+    place-items: center;
+    gap:50px;
+}
+.desk{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+.desk img{
+    max-width: 600px;
+    margin-left: -50px;
+}
+.text-column{
+    flex:1;
+   text-align: left;
+}
+.text{
+    font-weight:600px;
+  color: hsl(210, 10%, 33%);
+  line-height: normal;
+}
+.move{
+    display:flex;
+      color: hsl(210, 10%, 33%);
+      justify-content: space-between;
+}
+.partners{
+    display:flex;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: hsl(220, 18%, 97%);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 30px;
+}
+.mainlogo{
+    grid-area:mainlogo;
+}
+.ask {
+    display:flex;
+    gap:20px;
+}
+.faq{
+    flex-direction: column;
+        color: hsl(210, 10%, 33%);
+        font-weight:600;
+
+}
+.icon{
+    display:flex;
+    gap:15px;
+    justify-self: end;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  header {
+    background-image: url('backgroundheadermobile.png');
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 24px 50px;
+    text-align: center;
+  }
+
+  main {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+
+  .mainlogo {
+    display: block;
+    margin: 0 auto 40px;
+    width: 55px;
+  }
+
+  .b1, .b2 {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    padding: 14px;
+    border-radius: 30px;
+    margin: 0 auto 12px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .desktop-row {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    gap: 0;
+  }
+
+  .desk {
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .desk img {
+    width: 100%;
+    margin: 0;
+    display: block;
+    height:auto;
+  }
+
+  .text-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text, main > .history {
+    text-align: center;
+  }
+
+  .move {
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    width: 100%;
+  }
+
+  .move > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partners {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 24px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .ask, .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .icon {
+    justify-content: center;
+    gap: 20px;
+  }
+}
